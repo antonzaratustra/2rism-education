@@ -6,6 +6,57 @@ html, body {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1440px;
     padding: 0 32px;
+}
+
+/*Header*/
+
+.header {
+    height: 800px;
+
+    background-color: black;
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 0 0 54px 54px;
+
+    color: white;
+
+
+}
+
+.header a {
+color: white;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 54px
+}
+
+
+.nav-list__item{
+    text-transform: capitalize;
+}
+
+
+
+.nav-list__link {
+    color: white;
+    opacity: 0.7;
+}
+
+.navlist__link--active {
+    opacity: 1;
 }
